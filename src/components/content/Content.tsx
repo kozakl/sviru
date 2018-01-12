@@ -3,23 +3,20 @@ import * as style from './Content.css';
 /**
  * @author kozakluke@gmail.com
  */
-export default class Content extends React.PureComponent<ContentProps>
+export default class Content extends React.PureComponent
 {
-    onClick = ()=>
-    {
-        console.log(this.props.message);
-    };
-    
     render()
     {
         return (
             <div className={style.content}>
-                <button className={style.button} onClick={this.onClick}>Click</button>
+                <div className={style.element1}>1</div>
+                <div className={style.element2}>2</div>
+                <div className={style.element3}>3</div>
+                <div className={style.element4}>4</div>
+                <div className={style.element5}>5</div>
+                <div className={style.element6}>6</div>
+                <div className={style.element7}>7</div>
             </div>
         );
     }
-}
-
-interface ContentProps {
-    message:string;    
 }
