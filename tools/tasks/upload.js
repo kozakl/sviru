@@ -4,7 +4,7 @@ import {exec} from 'child_process';
 const server  = '/home/luke/Public/kozakluke.bitbucket.org/',
       process = exec('git describe --tags');
 process.stdout.on('data', (tag)=> {
-    const project = 'react-ts-template/' + tag.slice(0, tag.lastIndexOf('-')),
+    const project = 'grid-basic/' + tag.slice(0, tag.lastIndexOf('-')),
           cache   = Math.random();
     
     fs.removeSync(server + project);
