@@ -1,18 +1,27 @@
 .brick {
+  position: relative;
   break-inside: avoid-column;
-  //min-width: 150px;
-  //flex-basis: 150px;
-  background: red;
-  //float: left;
-  //width: 400px;
-  //height: 415px;
-  //margin: 0.5rem;
-  //margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cover {
+  position: absolute;
+  display: block;
+  filter: grayScale(100%);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transition:
+          opacity 0.5s;
   
-  & img {
-    display: block;
-    width: 100%;
-    height: 100%;
+  &:hover {
+    opacity: 0;
   }
 }

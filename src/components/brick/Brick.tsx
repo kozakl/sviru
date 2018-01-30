@@ -5,12 +5,12 @@ import * as style from './Brick.css';
  */
 export default class Brick extends React.PureComponent<BrickProps>
 {
-    
     render()
     {
         return (
             <div className={style.brick}>
-                <img src={this.props.path}/>
+                <img className={style.image} src={this.props.path}/>
+                <img className={style.cover} src={this.props.path}/>
             </div>
         );
     }
