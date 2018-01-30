@@ -51,11 +51,14 @@ export default class Content extends React.PureComponent
     {
         return (
             <div className={style.content}>
-                {this.images.map(
-                    (n:string, id:number)=>
-                        <Brick key={n} path={n}/>
-                        
-                )}
+                <p>HELLO</p>
+                <div className={style.bricks}>
+                    {this.images.map(
+                        (n:string)=>
+                            <Brick key={n} path={n}/>
+                            
+                    )}
+                </div>
             </div>
         );
     }
