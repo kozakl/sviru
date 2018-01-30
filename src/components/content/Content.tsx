@@ -1,5 +1,6 @@
 import * as React from 'react';
 import * as style from './Content.css';
+import Brick from "../brick/Brick";
 /**
  * @author kozakluke@gmail.com
  */
@@ -52,11 +53,7 @@ export default class Content extends React.PureComponent
             <div className={style.content}>
                 {this.images.map(
                     (n:string, id:number)=>
-                        <div className={style.element} key={n}>
-                            <img  src={n}>
-                            
-                        </img>
-                        </div>
+                        <Brick key={n} path={n}/>
                         
                 )}
             </div>
