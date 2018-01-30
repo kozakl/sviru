@@ -17,6 +17,10 @@ module.exports = {
                 loader: 'ts-loader'
             },
             {
+                test: /\.(woff|woff2|ttf|eot|svg)(\?v=[a-z0-9]\.[a-z0-9]\.[a-z0-9])?$/,
+                use: ['url-loader']
+            },
+            {
                 test: /\.css$/,
                 use: [
                     'style-loader',
