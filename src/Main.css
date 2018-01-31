@@ -2,7 +2,9 @@
 @import './fonts.css';
 @import './variables.css';
 
-* {
+& *,
+& *::before,
+& *::after {
   box-sizing: border-box;
 }
 
