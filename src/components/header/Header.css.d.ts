@@ -1,6 +1,7 @@
 /**
  * @author kozakluke@gmail.com
  */
-export const brick:string;
-export const image:string;
-export const cover:string;
+export const header:string;
+export const name:string;
+export const phone:string;
+export const email:string;

@@ -2,15 +2,13 @@
 @import '../../variables.css';
 
 .header {
+  //background: gray;
+  height: 15rem;
+}
+
+.name {
   color: var(--color-grey-700);
   font: var(--weight-regular) 2.53125rem
         var(--font-secondary);
-  float: left;
-}
-
-.portfolio {
-  color: var(--color-grey-200);
-  font: var(--weight-regular) 7rem
-        var(--font-secondary);
-  float: right;
+  margin: 0;
 }

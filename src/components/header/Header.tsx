@@ -3,15 +3,12 @@ import * as style from './Header.css';
 /**
  * @author kozakluke@gmail.com
  */
-export default class Header extends React.PureComponent
-{
-    render()
-    {
-        return (
-            <div className={style.brick}>
-                <h1 className={style.header}>Tomasz Swirzewski</h1>
-                <h1 className={style.portfolio}>Portfolio</h1>
-            </div>
-        );
-    }
+export default function Header() {
+    return (
+        <div className={style.header}>
+            <p className={style.name}>Tomasz Swirzewski</p>
+            <p className={style.phone}>phone: +48 503 995 015</p>
+            <p className={style.email}>email: t.swizewski@gmail.com</p>
+        </div>
+    );
 }
