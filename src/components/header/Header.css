@@ -7,7 +7,8 @@
 }
 
 .name {
-  font: var(--weight-bold) 2.6rem
+  font: var(--weight-bold)
+        var(--size-xxl)
         var(--font-primary);
   margin: 3rem 0 1.25rem;
 }
