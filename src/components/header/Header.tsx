@@ -14,7 +14,9 @@ export default function Header()
             </div>
             <div className={style.email}>
                 <span>&#xe900;</span>
-                <label>t.swizewski@gmail.com</label>
+                <a href="mailto:t.swizewski@gmail.com">
+                    t.swizewski@gmail.com
+                </a>
             </div>
         </div>
     );
