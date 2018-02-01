@@ -6,8 +6,12 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+*::selection {
+  background: #b3d4fc;
 }
 
 input, textarea, select {
