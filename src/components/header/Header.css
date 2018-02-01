@@ -8,7 +8,40 @@
 
 .name {
   color: var(--color-grey-700);
-  font: var(--weight-regular) 2.53125rem
+  font: var(--weight-regular) 2.6rem
         var(--font-secondary);
   margin: 0;
+  margin-bottom: 1rem;
+}
+
+.phone {
+  margin-bottom: 0.25rem;
+  
+  & > span {
+    color: var(--color-grey-600);
+    font: 1.4rem var(--font-icons);
+    vertical-align: middle;
+  }
+  & > label {
+    color: var(--color-grey-800);
+    font: var(--weight-regular)
+          var(--size-md)
+          var(--font-secondary);
+    margin-left: 0.5rem;
+  }
+}
+
+.email {
+  & > span {
+    color: var(--color-grey-600);
+    font: 1.4rem var(--font-icons);
+    vertical-align: middle;
+  }
+  & > label {
+    color: var(--color-grey-800);
+    font: var(--weight-regular)
+          var(--size-md)
+          var(--font-secondary);
+    margin-left: 0.5rem;
+  }
 }

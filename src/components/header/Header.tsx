@@ -6,9 +6,15 @@ import * as style from './Header.css';
 export default function Header() {
     return (
         <div className={style.header}>
-            <p className={style.name}>Tomasz Swirzewski</p>
-            <p className={style.phone}>phone: +48 503 995 015</p>
-            <p className={style.email}>email: t.swizewski@gmail.com</p>
+            <h1 className={style.name}>Tomasz Swirzewski</h1>
+            <div className={style.phone}>
+                <span>&#xe901;</span>
+                <label>+48 503 995 015</label>
+            </div>
+            <div className={style.email}>
+                <span>&#xe900;</span>
+                <label>t.swizewski@gmail.com</label>
+            </div>
         </div>
     );
 }
