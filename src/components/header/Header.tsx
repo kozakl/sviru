@@ -10,7 +10,9 @@ export default function Header()
             <h1 className={style.name}>TOMASZ ŚWIŻEWSKI</h1>
             <div className={style.phone}>
                 <span>&#xe901;</span>
-                <label>+48 503 995 015</label>
+                <a href="tel:+48 503 995 015">
+                    +48 503 995 015
+                </a>
             </div>
             <div className={style.email}>
                 <span>&#xe900;</span>

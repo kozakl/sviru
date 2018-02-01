@@ -2,7 +2,6 @@
 @import '../../variables.css';
 
 .header {
-  //background: gray;
   color: #4a4c4c;
   height: 15rem;
 }
@@ -21,11 +20,16 @@
     font: 1.4rem var(--font-icons);
     vertical-align: middle;
   }
-  & > label {
+  & > a {
+    color: #4a4c4c;
     font: var(--weight-regular)
           var(--size-md)
           var(--font-primary);
     margin-left: 0.5rem;
+    
+    &:hover {
+      color: #898f93;
+    }
   }
 }
 
