@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as style from './Content.css';
-import Brick from "../brick/Brick";
+import Brick from '../brick';
+import Header from '../header';
 /**
  * @author kozakluke@gmail.com
  */
@@ -51,7 +52,7 @@ export default class Content extends React.PureComponent
     {
         return (
             <div className={style.content}>
-                <p>HELLO</p>
+                <Header/>
                 <div className={style.bricks}>
                     {this.images.map(
                         (n:string)=>
