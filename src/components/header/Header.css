@@ -2,7 +2,7 @@
 @import '../../variables.css';
 
 .header {
-  color: #4a4c4c;
+  color: var(--color-grey-a300);
   height: 15rem;
 }
 
@@ -21,14 +21,14 @@
     vertical-align: middle;
   }
   & > a {
-    color: #4a4c4c;
+    color: var(--color-grey-a300);
     font: var(--weight-regular)
           var(--size-md)
           var(--font-primary);
     margin-left: 0.5rem;
     
     &:hover {
-      color: #898f93;
+      color: var(--color-grey-a200);
     }
   }
 }
@@ -40,14 +40,14 @@
     vertical-align: middle;
   }
   & > a {
-    color: #4a4c4c;
+    color: var(--color-grey-a300);
     font: var(--weight-regular)
           var(--size-md)
           var(--font-primary);
     margin-left: 0.5rem;
     
     &:hover {
-      color: #898f93;
+      color: var(--color-grey-a200);
     }
   }
 }
