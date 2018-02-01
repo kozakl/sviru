@@ -9,8 +9,8 @@
 .name {
   font: var(--weight-bold) 2.6rem
         var(--font-primary);
-  margin: 0;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
 }
 
 .phone {
