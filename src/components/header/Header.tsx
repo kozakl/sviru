@@ -7,7 +7,7 @@ export default function Header()
 {
     return (
         <div className={style.header}>
-            <h1 className={style.name}>TOMASZ SWIŻEWSKI</h1>
+            <h1 className={style.name}>TOMASZ ŚWIŻEWSKI</h1>
             <div className={style.phone}>
                 <span>&#xe901;</span>
                 <label>+48 503 995 015</label>
